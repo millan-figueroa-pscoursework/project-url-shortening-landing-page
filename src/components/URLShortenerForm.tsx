@@ -1,7 +1,7 @@
 export default function URLShortenerForm() {
   return (
     <section className="w-full">
-      <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="max-w-6xl mx-auto py-10 px-6 md:px-16">
         <div
           className="bg-purple-900 rounded-xl p-6 md:p-10 flex flex-col md:flex-row items-center gap-4 md:gap-6 bg-cover bg-no-repeat bg-right"
           style={{ backgroundImage: "url('/bg-shorten-desktop.svg')" }}
