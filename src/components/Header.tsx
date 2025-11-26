@@ -3,7 +3,7 @@ import logo from "../assets/images/logo.svg";
 export default function Header() {
   return (
     <header className="w-full bg-white">
-      <div className="max-w-6xl mx-auto flex items-center justify-between py-6 px-16">
+      <div className="max-w-6xl mx-auto flex items-center justify-between py-6 px-12">
         {/* left side - logo */}
         <img src={logo} alt="Shortly logo" className="h-6" />
 
