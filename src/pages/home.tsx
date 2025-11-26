@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import URLShortenerForm from "../components/URLShortenerForm";
 import StatsSection from "../components/StatsSection";
-import Footer from "../components/Footer";
+import BoostCTA from "../components/BoostCTA";
 
 export default function Home() {
   return (
@@ -12,8 +12,7 @@ export default function Home() {
       {/* Grey background section */}
       <div className="bg-gray-200">
         <StatsSection />
-        {/* Later: shortened links, boost CTA */}
-        <Footer />
+        <BoostCTA />
       </div>
     </>
   );
