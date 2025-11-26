@@ -1,11 +1,9 @@
-import logo from "../assets/images/logo.svg";
-
 export default function Header() {
   return (
     <header className="w-full bg-white">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-6 px-12">
         {/* left side - logo */}
-        <img src={logo} alt="Shortly logo" className="h-6" />
+        <img src="/images/logo.svg" alt="" />
 
         {/* center nav links */}
         <nav className="hidden md:flex items-center gap-8 text-gray-600 text-sm font-medium">

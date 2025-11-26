@@ -10,7 +10,7 @@ export default function Home() {
       <URLShortenerForm />
 
       {/* Grey background section */}
-      <div className="bg-gray-100">
+      <div className="bg-gray-200">
         <StatsSection />
         {/* Later: shortened links, boost CTA */}
         <Footer />

@@ -1,14 +1,19 @@
 import "./index.css";
 import Header from "./components/Header.tsx";
-import Hero from "./components/Hero.tsx";
-import URLShortenerForm from "./components/URLShortenerForm.tsx";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home.tsx";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <URLShortenerForm />
+      <main className="min-h-screen">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
   );
 }

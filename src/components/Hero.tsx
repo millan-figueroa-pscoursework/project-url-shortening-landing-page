@@ -1,5 +1,3 @@
-import illustrationWorking from "../assets/images/illustration-working.svg";
-
 export default function Hero() {
   return (
     <section className="w-full bg-white overflow-hidden">
@@ -21,8 +19,8 @@ export default function Hero() {
         </div>
 
         {/* right image */}
-        <div className="md:w-1/2 flex justify-center">
-          <img src={illustrationWorking} className="w-full max-w-xl" />
+        <div className="w-full max-w-xl md:w-1/2 flex justify-center">
+          <img src="/images/illustration-working.svg" alt="" />
         </div>
       </div>
     </section>
